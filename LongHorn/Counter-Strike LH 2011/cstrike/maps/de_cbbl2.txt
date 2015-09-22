@@ -1,0 +1,10 @@
+Cobbl2 - Bomb/Defuse
+
+Counter-Terrorists: Prevent Terrorists
+from bombing
+
+Terrorists: The Terrorist carrying the
+C4 must place the bomb at one of the two
+bomb sites around the map.
+
+(Press FIRE to continue)

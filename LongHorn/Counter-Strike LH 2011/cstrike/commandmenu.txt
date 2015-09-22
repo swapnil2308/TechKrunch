@@ -1,0 +1,479 @@
+// =================================================================================================
+// Counter-Strike 1.6 CommandMenu ==== Useful settings in a simple menu
+// =================================================================================================
+// Vizito Forumin  www.esportskosova.com
+// © 2010 By: LongHorn
+// =================================================================================================
+"0" ".::Powered By::." "say .:: LongHorn - Play Hard. Go Pro. - ::.
+		
+"1" "Game Settings"
+{
+		
+		
+	        "1" "Weapon Hands"
+		{
+			"1" "Use Right Models" "cl_righthand 1"
+			"2" "Use Left Models" "cl_righthand 0"
+			"3" "Weapon left/Knife right"		"cl_righthand -1"
+		}
+		"2" "Auto Help"
+		{
+			"1" "On" "setinfo _ah 1"
+			"2" "Off" "setinfo _ah 0"
+		}
+		"3" "Buy Menu Type"
+		{
+			"1" "VGUI" "setinfo _vgui_menus 1"
+			"2" "Classic Text" "setinfo _vgui_menus 0"
+			
+         	 }
+		"2" "FPS Boster v2"
+		{
+			"3" "FPS Booster" "exec lhgui/fpsboost.cfg;say LH - FPS Booster Loaded!"
+		}
+		"5" "Auto Weapon Switch"
+		{
+			"1" "On" "setinfo _cl_autowepswitch 1"
+			"2" "Off" "setinfo _cl_autowepswitch 0"
+		}
+                "6" "Spriteblend"
+		{
+			"1" "On" "gl_spriteblend 1;say *MBL*Spriteblend: ON"
+			"2" "Off" "gl_spriteblend 0;say *MBL*Spriteblend: OFF"
+		}
+         
+		"7" "Weather Effects"
+		{
+			"1" "On" "cl_weather 1"
+			"2" "Off" "cl_weather 0"
+		}
+		"8" "Center playername ID"
+		{
+			"1" "On" "hud_centerid 1"
+			"2" "Off" "hud_centerid 0"
+		}
+                "9" "Radar"
+		{
+			"1" "On" "drawradar"
+			"2" "Off" "hideradar"
+		}
+		"10" "Radar Type"
+		{
+			"1" "Old" "cl_radartype 0"
+			"2" "New" "cl_radartype 1"
+                }
+}
+
+"2" "Record Demo"
+		{
+		"1" "Record" "record LH-Player"
+		"2" "Stop Recording" "stop"
+		"3" "Watch Demo" "viewdemo LH-Player"
+		"4" "Recording Manually"	"messagemode record"
+}
+"11" "LH MP3 Player"
+{
+	"1" "Playlist 1"	
+	{
+		"1" "Song1" "mp3 play mp3/1.mp3 ;say LH-Playing Song#1"
+		"2" "Song2" "mp3 play mp3/2.mp3 ;say LH-Playing Song#2"
+		"3" "Song3" "mp3 play mp3/3.mp3 ;say LH-Playing Song#3"
+		"4" "Song4" "mp3 play mp3/4.mp3 ;say LH-Playing Song#4"
+		"5" "Song5" "mp3 play mp3/5.mp3 ;say LH-Playing Song#5"
+		"6" "Song6" "mp3 play mp3/6.mp3 ;say LH-Playing Song#6"
+		"7" "Song7" "mp3 play mp3/7.mp3 ;say LH-Playing Song#7"
+		"8" "Song8" "mp3 play mp3/8.mp3 ;say LH-Playing Song#8"
+		"9" "Song9" "mp3 play mp3/9.mp3 ;say LH-Playing Song#9"
+		"10" "Song10" "mp3 play mp3/10.mp3 ;say LH-Playing Song#10"
+		
+	}
+	"2" "Playlist 2" 
+	{
+		"1" "Song11" "mp3 play mp3/11.mp3 ;say LH-Playing Song#11"
+		"2" "Song12" "mp3 play mp3/12.mp3 ;say LH-Playing Song#12"
+		"3" "Song13" "mp3 play mp3/13.mp3 ;say LH-Playing Song#13"
+		"4" "Song14" "mp3 play mp3/14.mp3 ;say LH-Playing Song#14"
+		"5" "Song15" "mp3 play mp3/15.mp3 ;say LH-Playing Song#15"
+		"6" "Song16" "mp3 play mp3/16.mp3 ;say LH-Playing Song#16"
+		"7" "Song17" "mp3 play mp3/17.mp3 ;say LH-Playing Song#17"
+		"8" "Song18" "mp3 play mp3/18.mp3 ;say LH-Playing Song#18"
+                "9" "Song19" "mp3 play mp3/19.mp3 ;say LH-Playing Song#19"
+		
+	}
+	"3" "Playlist 3"
+	{
+		"1" "Song20" "mp3 play mp3/20.mp3 ;say LH-Playing Song#20"
+		"2" "Song21" "mp3 play mp3/21.mp3 ;say LH-Playing Song#21"
+		"3" "Song22" "mp3 play mp3/22.mp3 ;say LH-Playing Song#22"
+		"4" "Song23" "mp3 play mp3/23.mp3 ;say LH-Playing Song#23"
+		"5" "Song24" "mp3 play mp3/24.mp3 ;say LH-Playing Song#24"
+		"6" "Song25" "mp3 play mp3/25.mp3 ;say LH-Playing Song#25"
+	        "7" "Song26" "mp3 play mp3/26.mp3 ;say LH-Playing Song#26"
+		"8" "Song27" "mp3 play mp3/27.mp3 ;say LH-Playing Song#27"
+		
+        
+        }
+        "4" "Playlist 4"
+	{
+		"1" "Song28" "mp3 play mp3/28.mp3 ;say LH-Playing Song#28"
+		"2" "Song29" "mp3 play mp3/29.mp3 ;say LH-Playing Song#29"
+		"3" "Song30" "mp3 play mp3/30.mp3 ;say LH-Playing Song#30"
+		"4" "Song31" "mp3 play mp3/31.mp3 ;say LH-Playing Song#31"
+		"5" "Song32" "mp3 play mp3/32.mp3 ;say LH-Playing Song#32"
+                "10" "Song33" "mp3 play mp3/33.mp3 ;say LH-Playing Song#33"
+	        "11" "Song34" "mp3 play mp3/34.mp3 ;say LH-Playing Song#34"
+
+
+        }
+        "5" "Playlist 5"
+	{
+		"1" "Song35" "mp3 play mp3/35.mp3 ;say LH-Playing Song#35"
+                "2" "Song36" "mp3 play mp3/36.mp3 ;say LH-Playing Song#36"
+                    }
+	 "6" "MP3 Volume"
+	{
+		"1" "Max Volume" "MP3volume 1.0 ;say LH-MP3 Volum: Max"
+		"2" "High Volume" "MP3volume 0.75 ;say LH-MP3 Volum: High"
+		"2" "Normal Volume" "MP3volume 0.5 ;say LH-MP3 Volum: Normal"
+		"3" "Medium Volume" "MP3volume 0.25 ;say LH-MP3 Volum: Medium"
+		"4" "Low Volume" "MP3volume 0.1 ;say LH-MP3 Volum: Low"
+		"5" "Muted" "MP3volume 0 ;say LH-MP3 Volum: Muted"
+	}
+	"7" "Stop Music" "mp3 stop ;say LH-MP3 Stop!"
+} 
+
+"2" "Useful Stuff"
+{
+		"1" "Net Graph"
+		{	
+			"1" "Net Graph 1" "net_graph 1"
+			"2" "Net Graph 2" "net_graph 2"
+			"3" "Net Graph 3" "net_graph 3"
+			"6" "Net Graph Position left" "net_graphpos 3"
+			"7" "Net Graph Position right" "net_graphpos 1"
+			"8" "Net Graph Position middle" "net_graphpos 2"
+			"9" "Net Graph Off" "net_graph 0"
+		
+		}
+		"2" "LH - Chat ConColors"
+		{	
+			"2" "Default Color" "exec lhgui/default.cfg;say LH - Con_Color Default Loaded!"
+			"3" "Yellow Color" "exec lhgui/yellow.cfg;say LH - Con_Color Yellow Loaded!"
+			"4" "Dark Blue Color" "exec lhgui/darkblue.cfg;say LH - Con_Color Dark Blue  Loaded!"
+			"5" "Red Color" "exec lhgui/red.cfg;say LH - Con_Color Red  Loaded!"
+			"6" "Gold Color" "exec lhgui/gold.cfg;say LH - Con_Color Gold  Loaded!"
+			"7" "White Color" "exec lhgui/white.cfg;say LH - Con_Color White  Loaded!"
+			"8" "Violet Color" "exec lhgui/violet.cfg;say LH - Con_Color Violet  Loaded!"
+			"9" "Light Blue Color" "exec lhgui/lightblue.cfg;say LH - Con_Color Light Blue  Loaded!"
+			"10" "Dark Red Color" "exec lhgui/darkred.cfg;say LH - Con_Color Dark Red  Loaded!"
+			"11" "Green Color" "exec lhgui/green.cfg;say LH - Con_Color Green  Loaded!"
+		 }	
+ 		"3" "Volume Settings"
+		{	
+			"2" "Max Volume" "Volume 2;say LH-Volume: MAX"
+			"3" "High Volume" "volume 1.60;say LH-Volume: HIGH"
+			"4" "Normal Volume" "volume 1.12;say LH-Volume: NORMAL"
+			"5" "Medium Volume" "volume 0.9;say LH-Volume: MEDIUM"
+			"6" "Low Volume" "volume 0.35;say LH-Volume: LOW"
+			"7" "Muted" "volume 0;say LH-Volume: MUTED"		
+	               }
+		"4" "Show FPS"
+		{	
+			"1" "On" "cl_showfps 1"
+			"2" "Off" "cl_showfps 0"
+		}
+
+                        		"3" "Change name" "messagemode name"
+			"4" "Status" "toggleconsole; status"
+			"5" "Enable Siege style echo" "room_type 1"
+			"6" "Disable Siege style echo" "room_type 0"
+			"7" "Reconnect to server" "retry"
+}
+
+"3" "Admin Only"  
+{ 
+              "A" "Rcon login"		     "messagemode rcon_password"
+              "B" "check rcon"                  "exec /cfg/pw_control.cfg"
+              "C" "change pw"                "exec /cfg/password.cfg"
+              "E" "Change map" 
+	         {
+                                        "1" "classic"
+	                                {
+                                        "A" "de_dust2"		"rcon changelevel de_dust2"
+	                                "B" "de_inferno" 	"rcon changelevel de_inferno"
+	                                "C" "de_nuke"		"rcon changelevel de_nuke"
+                                        "D" "de_train"		"rcon changelevel de_train"
+	                                "E" "de_dust"		"rcon changelevel de_dust"
+	                                "F" "de_cbble"		"rcon changelevel de_cbble"
+                                        "G" "de_aztec"          "rcon changelevel de_aztec"  
+                                        "H" "de_tuscan"         "rcon changelevel de_tuscan"  
+	                                }
+                                        "2" "Aim Maps -1- [ESL]"
+	                                {
+                                        "A" "aim_famas_x "	  "rcon changelevel aim_famas_x "
+	                                "B" "aim_00" 	          "rcon changelevel aim_00"
+	                                "C" "aim_1on1map"	  "rcon changelevel aim_1on1map"
+                                        "D" "aim_ak-colt"	  "rcon changelevel aim_ak-colt"
+	                                "E" "aim_brucke"	  "rcon changelevel aim_brucke"
+	                                "F" "aim_dgl"	          "rcon changelevel aim_dgl"
+                                        "G" "aim_dusty"	          "rcon changelevel aim_dusty"
+	                                }
+                                        "3" "Aim Maps -2- [ESL]"
+	                                {
+                                        "A" "aim_fixit"	          "rcon changelevel aim_fixit"
+                                        "B" "aim_map"	          "rcon changelevel aim_map"
+                                        "C" "aim_map2"	          "rcon changelevel aim_map2"
+                                        "D" "aim_map_esl"         "rcon changelevel aim_map_esl"
+                                        "E" "aim_map_usp"	  "rcon changelevel aim_map_usp"
+                                        "F" "aim_sk_galil_famas"  "rcon changelevel aim_sk_galil_famas"
+	                                }
+                                        "4" "Awp Maps [ESL]"
+	                                {
+                                        "A" "aim_awp_esl"       "rcon changelevel aim_awp_esl"
+	                                "B" "aim_00_awp" 	"rcon changelevel aim_00_awp"
+	                                "C" "awp_glass2_esl"	"rcon changelevel awp_glass2_esl"
+                                        "D" "awp_india"	        "rcon changelevel awp_india"
+	                                "E" "aim_sk_awp"	"rcon changelevel aim_sk_awp"
+	                                "F" "awp_map_esl"	"rcon changelevel awp_map_esl"
+	                                }
+	                                "5" "write the name of map"     "exec /cfg/mapnamemode.cfg"
+                  }
+
+              "D" "Settings"
+	                               {
+	                               "1" "Money"
+	                                            {
+	                                            "A" "$ 800"	"rcon mp_startmoney 800;wait;wait;wait; rcon say     the money= 800$"
+                                                    "2" "$ 2000" "rcon mp_startmoney 2000;wait;wait;wait; rcon say    the money= 2000 $"
+	                                            "C" "$ 16000"	"rcon mp_startmoney 16000 ;wait;wait;wait;rcon say    the money= 16000 $"
+	                                            }
+                                       "2" "Roundtime"
+	                                            {
+	                                            "A" "Roundtime 2min"	"rcon mp_roundtime 2;wait;wait;wait; rcon say roundtime= 2 min"
+	                                            "B" "Roundtime 10min"	"rcon mp_roundtime 10;wait;wait;wait; rcon say roundtime= 10 min"
+	                                            }
+	                               "3" "Freeztime"
+	                                            {
+	                                            "A" "Set Freezetime 0"	"rcon mp_freezetime 0;wait;wait;wait; rcon say freezetime= 0 sec"
+	                                            "B" "Set Freezetime 1"	"rcon mp_freezetime 1;wait;wait;wait; rcon say freezetime= 1 sec"
+                                                    "C" "Set Freezetime 5"	"rcon mp_freezetime 5;wait;wait;wait; rcon say freezetime= 5 sec"
+	                                            "D" "Set Freezetime 8"	"rcon mp_freezetime 8;wait;wait;wait; rcon say freezetime= 8 sec"
+	                                            }
+	                               "4" "Friendly Fire"
+	                                            {
+	                                            "A" "ON"		"rcon mp_friendlyfire 1;wait;wait;wait; rcon say Friendly fire is ON"
+	                                            "B" "OFF"		"rcon mp_friendlyfire 0;wait;wait;wait; rcon say Friendly fire is OFF"
+	                                            }
+	                               "5" "Fade to black"
+	                                            {
+	                                            "A" "ON"		"rcon mp_fadetoblack 1;wait;wait;wait; rcon say fade to black is ON"
+	                                            "B" "OFF"		"rcon mp_fadetoblack 0;wait;wait;wait; rcon say fade to black is OFF"
+	                                            }	
+                                       "6" "Team Balance"
+	                                            {
+	                                            "A" "ON"		"rcon mp_autoteambalance 1;wait;wait;wait; rcon say autoteambalance is ON"
+	                                            "B" "OFF"		"rcon mp_autoteambalance 0;wait;wait;wait; rcon say autoteambalance is OFF"
+	                                            }	
+                                       "7" "Pausable"
+                                                    {
+                                                    "A" "ON" "rcon pausable 1;wait;wait;wait; rcon say Pausable= ON"
+                                                    "B" "OFF" "rcon pausable 0;wait;wait;wait; rcon say pausable= OFF"
+                                                    }
+                      }
+	                     
+
+              "F" "Server Setings"
+	                                {
+	                                "C" "Cw"                         "exec /cfg/5on5.cfg"
+	                                "D" "Public"		         "exec /cfg/public.cfg"
+	                                }
+
+
+              "G" "Restart"	
+	                                {
+	                                "1" "1 Restart"	"rcon sv_restart 1"
+	                                "2" "3 Warm Up" 	"exec /cfg/rsknife.cfg"
+                                        "3" "3 Live" 		"exec /cfg/rslive.cfg"
+					}
+}
+                                       
+"3" "Rates Server"
+{
+      			"6" "Set me for Broadband rates" "rate 9999;cl_updaterate 30;cl_cmdrate 30;say Rates set for: BROADBAND"
+			"7" "Set me for ISDN rates" "rate 7000;cl_updaterate 25;cl_cmdrate 30;say Rates set for: ISDN"
+			"8" "Set me for 56k rates" "rate 3500;cl_updaterate 20;cl_cmdrate 30;say Rates set for: 56K"
+      "9" "Set me for LAN rates" "rate 25000;cl_rate 25000;cl_updaterate 101;cl_cmdrate 101;say Rates set for: LAN"
+}
+
+"6" "Say Menu"
+{
+	"1" "ME" "say /me"
+  "2" "Resetscore" "/resetscore"
+  "1" "The Rank" "say /rankstats"
+  "2" "Top 15" "say /top15"
+  "2" "The Admins" "say /admin"
+  "5" "Timeleft" "say timeleft"	
+	"3" "Thetime" "say thetime"
+	"4" "Nextmap" "say nextmap"
+	"4" "Serverat" "say /server"
+	
+
+	
+}
+
+"9" "Crosshair Control"
+{
+		"A" "Color"
+		{	
+                     "*" "Dark colors"
+                         {
+                              "1" "Blue" "exec colors/blue.cfg; motdset; motd_write Crosshair= Blue!;devon; motd; devoff"
+			      "2" "Green" "exec colors/green.cfg; motdset; motd_write Crosshair= Green!;devon; motd; devoff"
+                              "3" "Black" "exec colors/black.cfg; motdset; motd_write Crosshair= Black!;devon; motd; devoff"
+                         }
+                     "*" "Medium colors"
+                         {
+                              "1" "OGC Style" "exec colors/ogc.cfg; motdset; motd_write Crosshair= OGC!;devon; motd; devoff"
+                              "2" "Red" "exec colors/red.cfg; motdset; motd_write Crosshair= Red!;devon; motd; devoff"
+                              "3" "Turquoise" "exec colors/turquoise.cfg; motdset; motd_write Crosshair= Turquois!;devon; motd; devoff"
+                              "4" "Light Green" "exec colors/ltgreen.cfg; motdset; motd_write Crosshair= Light Green;devon; motd; devoff"
+                         }
+                        
+
+                     "*" "Light colors"
+                         {
+			      "1" "Light Green" "exec colors/ltgreen.cfg; motdset; motd_write Crosshair= Light Green;devon; motd; devoff"
+			      "2" "Orange" "exec colors/orange.cfg; motdset; motd_write Crosshair= Orange!;devon; motd; devoff"
+			      "3" "Pink" "exec colors/pink.cfg; motdset; motd_write Crosshair= Pink!;devon; motd; devoff"
+			      "4" "White" "exec colors/white.cfg; motdset; motd_write Crosshair= White!;devon; motd; devoff"
+			      "5" "Yellow" "exec colors/yellow.cfg; motdset; motd_write Crosshair= Yellow!;devon; motd; devoff"
+		         }
+
+                }
+		"B" "Size"
+		{	
+			"1" "Large" "cl_crosshair_size large; motdset; motd_write Crosshair size= Large!;devon; motd; devoff"
+			"2" "Medium" "cl_crosshair_size medium; motdset; motd_write Crosshair= Medium!;devon; motd; devoff"
+			"3" "Small" "cl_crosshair_size small; motdset; motd_write Crosshair= Small!;devon; motd; devoff"
+		}	
+		"C" "Transculent"
+		{	
+			"1" "On" "cl_crosshair_translucent 1; motdset; motd_write Crosshair transculet= ON!;devon; motd; devoff"
+			"2" "Off" "cl_crosshair_translucent 0; motdset; motd_write Crosshair transculet= OFF!;devon; motd; devoff"
+		}	
+	TOGGLE "false"	"D" "Dynamic crosshair" "s_dctg"
+		
+		"E" "Cycle Colours" "adjust_crosshair"
+}
+
+"1" "BOT Menu Local"
+{
+	"1" "Bot Management"
+	{
+		"1" "Kill All Bots"			"bot_kill"
+		"2" "Kick All Bots"			"bot_kick"
+		"3" "Stop All Bots"
+		{
+			"1" "Freeze All Bots"		"bot_stop 1"
+			"2" "Unfreeze All Bots"	        "bot_stop 0"
+		}
+		"4" "Radio Chatter"
+		{
+			"1" "Off"			"bot_chatter off"
+			"2" "Standard Radio"		"bot_chatter radio"
+			"3" "Minimal"			"bot_chatter minimal"
+			"4" "Normal"			"bot_chatter normal"
+		}
+	}
+	"2" "Bot Numbers"
+	{
+		"1" "Quick Add Bot"			"bot_add"
+		"2" "Add A Specific Bot"
+		{
+			"1" "Add Terrorist"		"bot_add_t"
+			"2" "Add Counter-Terrorist"	"bot_add_ct"
+		}
+		"3" "Bot Join Team"
+		{
+			"1" "Terrorist"			"bot_join_team t"
+			"2" "Counter-Terrorist"		"bot_join_team ct"
+			"3" "Any"			"bot_join_team any"
+		}
+		"4" "Bot Quota"
+		{
+			"1" "3 Bots"			"bot_quota 3"
+			"2" "5 Bots"			"bot_quota 5"
+			"3" "7 Bots"			"bot_quota 7"
+			"4" "9 Bots"			"bot_quota 9"
+			"5" "11 Bots"			"bot_quota 11"
+			"6" "13 Bots"			"bot_quota 13"
+		}
+	}
+	"3" "Bot Settings"
+	{
+		"1" "Difficulty"
+		{
+			"1" "Easy"			"bot_difficulty 0"
+			"2" "Normal"			"bot_difficulty 1"
+			"3" "Hard"			"bot_difficulty 2"
+			"4" "Expert"			"bot_difficulty 3"
+		}
+		"2" "Map Objectives"
+		{
+			"1" "Bots Complete Objectives"	"bot_defer_to_human 0"
+			"2" "Humans Complete Objectives""bot_defer_to_human 1"
+		}
+		"3" "Weapon Mode"
+		{
+			"1" "Knives Only"		"bot_knives_only 1"
+			"2" "Pistols Only"		"bot_pistols_only 1"
+			"3" "Snipers Only"		"bot_snipers_only 1"
+			"4" "All Weapons"		"bot_all_weapons 1"
+		}
+		"4" "Weapon Restrictions"
+		{
+			"1" "Grenades"
+			{
+				"1" "Allow"		"bot_allow_grenades 1"
+				"2" "Restrict"		"bot_allow_grenades 0"
+			}
+			"2" "Machine Guns"
+				{
+				"1" "Allow"		"bot_allow_machine_guns 1"
+				"2" "Restrict"		"bot_allow_machine_guns 0"
+			}
+			"3" "Pistols"
+			{
+				"1" "Allow"		"bot_allow_pistols 1"
+				"2" "Restrict"		"bot_allow_pistols 0"
+			}
+			"4" "Rifles"
+			{
+				"1" "Allow"		"bot_allow_rifles 1"
+				"2" "Restrict"		"bot_allow_rifles 0"
+			}
+			"5" "Shield"
+			{
+				"1" "Allow"		"bot_allow_shield 1"
+				"2" "Restrict"		"bot_allow_shield 0"
+			}
+			"6" "Shotguns"
+			{
+				"1" "Allow"		"bot_allow_shotguns 1"
+				"2" "Restrict"		"bot_allow_shotguns 0"
+			}
+			"7" "Snipers"
+			{
+				"1" "Allow"		"bot_allow_snipers 1"
+				"2" "Restrict"		"bot_allow_snipers 0"
+			}
+			"8" "Sub-Machine Guns"
+			{
+				"1" "Allow"		"bot_allow_sub_machine_guns 1"
+				"2" "Restrict"		"bot_allow_sub_machine_guns 0"
+			}
+		}
+	}
+
+
+
